@@ -1,0 +1,310 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.btn-dark {
+  background-color: #2b1b12 !important;
+}
+.icons {
+  font-size: 24px;
+}
+img {
+  max-width: 100%;
+}
+header {
+  background-color: #fef7f2;
+  min-height: 100vh;
+  nav {
+  }
+  .hero {
+    .cta {
+      color: #2b1b12;
+      font-family: Montserrat;
+      font-weight: 800;
+      font-style: ExtraBold;
+      font-size: 74px;
+      max-width: 514px;
+    }
+    .hero-desc {
+      max-width: 413px;
+
+      font-family: Montserrat;
+      font-weight: 700;
+      font-style: Bold;
+      font-size: 18px;
+
+      color: #4f3527;
+    }
+
+    .form-custom {
+      box-shadow: 0px 8px 30px 0px #2b1b121f;
+      background: #ddc7bb;
+      max-width: 1070px;
+      /* height: 160px; */
+
+      border-radius: 18px;
+      .inputt {
+        /* border-radius: 1000px; */
+        /* background-color: #4f3527 !important; */
+        /* outline: none; */
+        background: #fbf5f1 !important;
+
+        border: none;
+        border-radius: 8px;
+      }
+      input {
+        background: #fbf5f1 !important;
+        border: none;
+        border-radius: 8px;
+      }
+      .inputt::placeholder {
+        color: #695346;
+        font-family: Montserrat;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 18px;
+      }
+    }
+  }
+}
+main {
+  #dream-home {
+    margin: 144px auto !important;
+    .count h3 {
+      color: #4f3527;
+      font-family: Montserrat;
+      font-weight: 700;
+      font-style: Bold;
+      font-size: 48px;
+    }
+    .count p {
+      color: #4f3527;
+      font-family: Montserrat;
+      font-weight: 600;
+      font-style: SemiBold;
+      font-size: 18px;
+    }
+    .title {
+      max-width: 514px;
+      color: #2b1b12;
+      font-family: Montserrat;
+      font-weight: 800;
+      font-style: ExtraBold;
+      font-size: 40px;
+    }
+    .desc {
+      color: #4f3527;
+      font-family: Montserrat;
+      font-weight: 700;
+      font-style: Bold;
+      font-size: 18px;
+      max-width: 514px;
+    }
+  }
+  #choose-us {
+    margin: 144px auto !important;
+    .title {
+      color: #2b1b12;
+      font-family: Montserrat;
+      font-weight: 800;
+      font-style: ExtraBold;
+      font-size: 40px;
+    }
+    .desc {
+      color: #4f3527;
+      font-family: Montserrat;
+      font-weight: 700;
+      font-style: Bold;
+      font-size: 18px;
+      line-height: 160%;
+    }
+    .card-custom {
+      box-shadow: 0px 4px 30px 0px #2b1b121f;
+      background: #ddc7bb;
+      width: 275px;
+      border-radius: 18px;
+      .avatar {
+        background: #fbf5f1;
+        width: 83px;
+        border-radius: 8px;
+      }
+      h4 {
+        color: #2b1b12;
+        font-family: Montserrat;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 18px;
+      }
+      p {
+        color: #4f3527;
+        font-family: Montserrat;
+        font-weight: 600;
+        font-style: SemiBold;
+
+        line-height: 130%;
+      }
+    }
+  }
+  #our-popular {
+    margin: 144px auto !important;
+    .title {
+      color: #2b1b12;
+      font-family: Montserrat;
+      font-weight: 800;
+      font-style: ExtraBold;
+      font-size: 40px;
+    }
+    .card {
+      background-color: #ddc7bb;
+      border-radius: 18px;
+      box-shadow: 0px 4px 30px 0px #2b1b121f;
+    }
+    .card-body {
+      .price {
+        color: #4f3527;
+        font-family: Montserrat;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 22px;
+      }
+    }
+  }
+  #contact-us {
+    margin: 144px auto !important;
+    .title {
+      color: #2b1b12;
+      font-family: Montserrat;
+      font-weight: 800;
+      font-style: ExtraBold;
+      font-size: 40px;
+
+      line-height: 140%;
+
+      max-width: 666px;
+    }
+    .desc {
+      color: #543e32;
+      font-family: Montserrat;
+      font-weight: 700;
+      font-style: Bold;
+      font-size: 18px;
+    }
+    input {
+      box-shadow: 0px 4px 30px 0px #2b1b121f;
+      background: #ddc7bb;
+      max-width: 505px !important;
+      border-radius: 8px;
+      border: none;
+    }
+    input::placeholder {
+      color: #543e32;
+      font-family: Montserrat;
+      font-weight: 600;
+      font-style: SemiBold;
+      font-size: 18px;
+      max-width: 245px;
+    }
+  }
+}
+
+footer {
+  background: #ddc7bb;
+
+  a {
+    color: black;
+  }
+}
+
+@media (max-width: 576px) {
+  .cta {
+    font-size: 45px !important;
+  }
+}
+
+/* TEST */
+.testimonial-card {
+  background-color: #ddc7bb;
+
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  .name {
+    color: #2b1b12;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 20px;
+  }
+  .city {
+    color: #2b1b12;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-style: SemiBold;
+  }
+}
+
+.testimonial-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.testimonial-content {
+  padding: 1.5rem;
+}
+
+.testimonial-user {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.testimonial-user img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.rating {
+  display: inline-flex;
+  align-items: center;
+  background: #fff;
+  border-radius: 8px;
+  padding: 2px 8px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #3a2a20;
+}
+
+.rating i {
+  color: #ffb400;
+  margin-right: 4px;
+}
+.swiper-wrapper {
+  position: relative !important;
+}
+#swip {
+  /* position: relative !important; */
+  background-color: #fef7f2;
+  .title {
+    color: #2b1b12;
+    font-family: Montserrat;
+    font-weight: 800;
+    font-style: ExtraBold;
+    font-size: 40px;
+    max-width: 452px;
+  }
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #3a2a20;
+  background: #fff;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+  position: absolute !important;
+}
